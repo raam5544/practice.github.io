@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Delicious Indian Kitchen
+    </title>
+</head>
+<body>
+    <marquee><h1>WELCOME TO DELICIOUS INDIAN KITCHEN</h1></marquee>
+    <style>
+    body {
+        font-family: cursive;
+        margin:0;
+        padding:0px;
+        background-color: darkgray; 
+        text-align: center;  
+    }  
+    .header {
+        background-color: light rgb(11, 11, 144);
+        color: white;
+        padding:20px;
+        text-align: center;
+        box-shadow: 0px 4px 10px;
+    }      
+    nav {
+        background-color: rgb(14, 37, 60);
+        font-size: 30px;
+        padding: 10px 10px 20px 20px;
+        display:flex ;
+        flex-direction: row;
+        justify-content: space-around;
+        box-shadow: 20px 20px 10px 10px;
+        text-decoration: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: antiquewhite;
+    
+    }
+    .section {
+        padding:20px;
+        text-align: left;
+        max-width: 600px;
+        margin:0 auto;
+    }
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: dark pink;
+        padding:20px;
+        font-family: cursive;
+    }
+    .contact-form label {
+        display: block;
+        margin-bottom: 8px;
+        font-family: cursive; 
+    }
+    #textarea {
+        width:100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        /* border: 0.5px solid black; */
+        border-radius: px;
+        box-sizing: border-box;
+    }
+    .contact-form button {
+        background-color: blue;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+        color:white;
+
+    }
+    .footer {
+        background-color: rgb(8, 8, 80);
+        color: white;
+        padding: 1px;
+        text-align: Center;
+        width:100%;
+        margin: 0%;
+    }
+
+    a:hover{
+        background-color: blue;
+    }
+
+    </style>
+    <body>
+        <div class="nav">
+            <nav>
+                <a href="Homepage.html">Homepage</a>
+                <a href="Recipe Catalog.html">Recipe Catalog</a>
+            </nav>
+        </div> 
+        <div class="header">
+            <header>
+                <h1>Contact Us</h1>
+            </header>
+        </div>
+        <div class="contact-form">
+            <p>Have a question or feedback about our recipes. Feel free to reach out to us using the form below:</p>
+            <form action="#" method="post" class="contact-form" >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Feedbacks or Questions about our recipes:</label>
+                <input type="message" id="textarea" rows="3" required>
+                
+                <button id="contact-form button">Submit</button><br><br>
+            </form>
+        </div>                
+        <div class="footer">
+                <footer>
+                    <p>Thank you for vising our page. </p>
+                </footer>
+        </div>
+        </body>
+</html> 
